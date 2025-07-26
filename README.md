@@ -1,3 +1,1 @@
-# TheBossMusicDistribution
-# theboss
 # theboss
