@@ -208,7 +208,7 @@ ul{
 .sectionserve>h1{
   color: rgb(108, 108, 235);
   padding-block: 2rem;
-  animation:slidein linear;
+  animation:slidein ;
 
   
   @media (min-width:1139px) {

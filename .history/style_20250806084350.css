@@ -208,7 +208,7 @@ ul{
 .sectionserve>h1{
   color: rgb(108, 108, 235);
   padding-block: 2rem;
-  animation:slidein linear;
+  animation:slidein 0.5s;
 
   
   @media (min-width:1139px) {
@@ -223,11 +223,9 @@ ul{
   }
   @keyframes slidein {
     from{
-      transform: translateX(20px);
+      transform: translateX(0px);
     }
-    to{
-      transform: translateX(70px);
-    }
+    
   }
 .sm{
   background-color:rgb(167, 164, 164);

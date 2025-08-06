@@ -208,27 +208,19 @@ ul{
 .sectionserve>h1{
   color: rgb(108, 108, 235);
   padding-block: 2rem;
-  animation:slidein linear;
-
-  
+  animation:movebo;
   @media (min-width:1139px) {
     text-align: center;
    
+    @keyframes identifier {
+      
     }
-  
+  }
   @media (max-width:385px) {
     font-size: 20px;
     font-weight: 600;
   }
-  }
-  @keyframes slidein {
-    from{
-      transform: translateX(20px);
-    }
-    to{
-      transform: translateX(70px);
-    }
-  }
+}
 .sm{
   background-color:rgb(167, 164, 164);
   border-radius: 1rem;
