@@ -202,7 +202,7 @@ ul{
   margin-inline: auto;
   scrollbar-width: none;
   margin-inline: 1.5rem;
-  padding-inline: 2rem;
+  background-color: blue;
 }
 .sectionserve>h1{
   color: rgb(108, 108, 235);
@@ -260,8 +260,7 @@ ul{
 margin-block: 1.2rem;
 display: flex;
 justify-content: space-between;
-max-width: 1120px;
-padding-inline: 2rem;
+max-width: 1120;
 }
 .mainbtna button{
   background-color:black;

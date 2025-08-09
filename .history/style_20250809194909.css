@@ -202,7 +202,7 @@ ul{
   margin-inline: auto;
   scrollbar-width: none;
   margin-inline: 1.5rem;
-  padding-inline: 2rem;
+  background-color: blue;
 }
 .sectionserve>h1{
   color: rgb(108, 108, 235);
@@ -257,11 +257,15 @@ ul{
   }
 }
 .mainbtna{
-margin-block: 1.2rem;
-display: flex;
-justify-content: space-between;
-max-width: 1120px;
-padding-inline: 2rem;
+  max-width: 1120px;
+  /* padding-inline: 3rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem; */ */
+  background-color: aqua;
+  di
+  margin-inline-end: 100%;
 }
 .mainbtna button{
   background-color:black;
