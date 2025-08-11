@@ -1,0 +1,20 @@
+@media (max-width:1000px){
+    .About-div-a{
+        margin-inline: auto;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .About-h1-a{
+        text-align: center;
+    }
+    .about-first-p{
+        text-align: center;
+    }
+    .about-hr{
+        margin-inline: auto;
+    }
+
+  } 
+  
