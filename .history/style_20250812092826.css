@@ -70,9 +70,7 @@ p,li{
   gap: 30px;
 }
 #about{
-  padding-block: 30px;
-  max-width: 1120px;
-  margin-inline: auto;
+  padding: 30px 90px;
   @media (max-width:993px) {
     padding: 30px;
   }
@@ -210,20 +208,18 @@ ul{
    padding-block: 1rem;
 }
 .sectionserve{
-  margin-inline: auto;
-  max-width: 1120px;
+
 }
 .sectionserve>h1{
   color: rgb(108, 108, 235);
   padding-block: 2rem;
-  padding-inline: 1rem;
-  animation: slidein 2s linear;
+  animation:slidein linear;
 
   
-  /* @media (min-width:1139px) {
+  @media (min-width:1139px) {
     text-align: center;
    
-    } */
+    }
   
   @media (max-width:385px) {
     font-size: 20px;
@@ -360,9 +356,8 @@ footer>main{
   flex-wrap: wrap;
   gap: 2rem;
   max-width: 1120px;
-  margin-inline: auto;
-  @media (max-width:418px) {
-    flex-direction: column;
+  @media (max-width:) {
+    
   }
 }
 footer hr{

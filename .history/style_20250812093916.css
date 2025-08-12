@@ -216,7 +216,6 @@ ul{
 .sectionserve>h1{
   color: rgb(108, 108, 235);
   padding-block: 2rem;
-  padding-inline: 1rem;
   animation: slidein 2s linear;
 
   
@@ -360,7 +359,7 @@ footer>main{
   flex-wrap: wrap;
   gap: 2rem;
   max-width: 1120px;
-  margin-inline: auto;
+  
   @media (max-width:418px) {
     flex-direction: column;
   }
