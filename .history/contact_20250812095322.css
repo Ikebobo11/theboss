@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+}
+a{
+  text-decoration: none;
+}
+p,li{
+  @media (max-width:434px) {
+    font-size: 14px;
+  }
+}
+.logo-image{
+    width: 4rem;
+}
+.header-first-div{
+    background-color: rgb(188, 188, 252);
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:3%; */
+    position: fixed;
+    width: 100vw;
+}
