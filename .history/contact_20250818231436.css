@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     font-family: "Poppins", sans-serif;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+p,li{
+  @media (max-width:434px) {
+    font-size: 14px;
+  }
+}
+.logo-image{
+    width: 4rem;
+}
+.header-first-div{
+    background-color: rgb(188, 188, 252);
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:3%; */
+    position: fixed;
+    width: 100vw;
+}
+.flex-box-a{
+  background-color: blue;
+}
+.header-second-div{
+  background-image: url(./st.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 100vw;
+  min-height: 600px;
+  padding-block: 200px 100px;
+  @media (max-width:507px) {
+    font-size: 40px;
+    min-height: 300px;
+  }
+}
+.header-first-h1{
+  font-size: 80px;
+  text-align: center;
+  color: white;
+    @media (max-width:507px) {
+    font-size: 35px;
+  }
+}
+.header-first-p{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+    @media (max-width:507px) {
+    font-size: 20px;
+  }
+}
+.menudiv{
+  position: fixed;
+  top:5rem;
+  background-color:green ;
+  right: 0;
+  width: 100vw;
+  height: 353px;
+  left: 0; 
+  z-index:2;
+ 
+  display: none;
+}
+.Nav-a a{
+  color: white;
+  border-bottom:1px solid transparent;
+}
+.link-a:hover{
+  color: greenyellow;
+  border-bottom: 1px solid white;
+}
+.showbut{
+  width: 3rem;
+  padding-right: 1rem;
+}
+.hidelb{
+  display: none;
+ 
+}
+.hidela{
+  display: none;
+   @media (max-width:659px) {
+    display: block;
+  }
+}
+.Nav-a{
+  display: flex;
+  padding-inline: 60px;
+  gap: 3rem;
+  @media (max-width:659px) {
+    display: none;
+  }
+}
+/* section a area */
+.sectionA{
+  top: 100px;
+  position: relative;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+.headingc{
+  padding: 50px 10px;
+}
+.headingc>h1{
+  color: greenyellow;
+}
+/* contact form css */
+.contact-form{
+  display: flex;
+ @media (max-width:1022px) {
+  flex-direction: column;
+ }
+}
+.telephoneA{
+  max-width: 800px;
+  height: 700px;
+}
+.telephoneA img{
+  width: 100%;
+  height: 100%;
+}
+.formdiv{
+  max-width: 700px;
+  flex-grow: 1;
+}
+.formp{
+  padding: 50px;
+}
+.formp>input{
+  width:100%;
+  display: block;
+  height: 30px;
+  margin-block: 10px;
+  max-width: 600px;
+  /* @media (max-width:1022px) {
+    width: 60%;
+  } */
+}
+.formp>input:focus{
+  border: 4px solid greenyellow;
+  outline: none;
+}
+#phone{
+  width: 100%;
+  height: 30px;
+  max-width: 350px;
+  @media (max-width:1050px) {
+    width: 100%;
+    max-width: 485px;
+  }
+}
+textarea{
+  max-width: 600px;
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+ #phone:focus{
+  border: 4px solid greenyellow;
+  outline: none;
+}
+textarea:focus{
+  border: 4px solid greenyellow;
+  outline: none;
+}
+.sub{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.sub:focus{
+  background-color: greenyellow;
+}
+/* direct contact section */
+.link-sm div{
+  display: flex;
+  gap: 20px;
+  flex-wrap:wrap;
+  padding: 10px;
+  max-width: 1120px;
+  margin-inline: auto;
+  background-color: aqua;
+}
+.link-sm{
+  max-width: 1120px;
+}
+.space{
+  min-height: 100px;
+}
+.link-sm a{
+  width: 150px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  padding-top: 2.5px;
+  border-radius: 10px;
+  display: block;
+}
+.wat{
+  background-color: green;
+}
+.ins{
+  background-color: palevioletred;
+}
+.fac{
+  background-color: blue;
+}
+/* footer section */
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 3rem;
+  padding: 2rem;
+  font-size: 14px;
+}
+.lin{
+  filter: invert(1);
+}
+.footlink>div{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-block: 1rem;
+}
+footer a{
+  color: white;
+}
+footer>main{
+  display: flex;
+  justify-content:space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1120px;
+  margin-inline: auto;
+  @media (max-width:418px) {
+    flex-direction: column;
+  }
+}
+footer hr{
+  max-width: 1120px;
+  border: 1px solid white;
+  background-color: white;
+  /* height: 10rem; */
+  margin-inline: auto;
+}
+footer button{
+  background-color: greenyellow;
+  color: white;
+  border: 1px transparent solid;
+  padding: 0.3rem;
+}
+footer input{
+  padding: 0.3rem;
+}
+footer>p{
+  text-align: center;
+  padding-block: 1.5rem;
+}
