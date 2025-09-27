@@ -1,1 +1,0 @@
-let hidela = document.querySelector(".hidela")
