@@ -273,11 +273,11 @@ ol>li{
   background-color:transparent;
 }
 .sm a{
+  background-color:rgb(232, 139, 139);
   padding: 2px;
   border-radius: 2px;
   text-decoration: underline;
-  font-weight: 800;
-  font-size: 17px;
+  
 }
 .smi{
   max-width: 15rem;
